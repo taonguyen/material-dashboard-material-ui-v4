@@ -1,4 +1,7 @@
 module.exports = {
+  rules: {
+    "prettier/prettier": ["error", { endOfLine: "auto" }],
+  },
   parser: "babel-eslint",
   env: {
     es6: true,
